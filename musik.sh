@@ -1,0 +1,2 @@
+
+mpv --volume=60 $HOME/WA-BAN/music/  &>/dev/null &
