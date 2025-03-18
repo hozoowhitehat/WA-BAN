@@ -36,4 +36,4 @@ set +x
 # fi
 ###################################################
 
-bash ATTCKER.sh
+bash ATTACKER.sh
