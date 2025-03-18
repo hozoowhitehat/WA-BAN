@@ -7,7 +7,7 @@ sss="sleep 3"
 Version="./pockat/Version"
 versitoolsv5=$(cat "$Version")
 update="./pockat/info"
-gal="/data/data/com.termux/files/usr/lib/$versitoolsv5"
+gal="/data/data/com.termux/files/usr/lib/$WA-BAN"
 musik="bash $HOME/WA-BAN/test.sh"
 letakgalirus="/data/data/com.termux/files/usr/etc/apt"
 internalsc="/data/data/com.termux/files/usr/include/jso"
@@ -41,6 +41,7 @@ PURPLE='\033[0;35'
 NC='\033[0m' # No Color
 
 clear
+mpv --volume=80 HOZOO.mp3
 echo -e "\e[1m\e[32m
 
                   :=+*#%%%##*=:
