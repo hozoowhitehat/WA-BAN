@@ -41,7 +41,8 @@ PURPLE='\033[0;35'
 NC='\033[0m' # No Color
 
 clear
-
+nohup mpv --volume=80 klick.mp3 &
+clear
 nohup mpv --volume=80 HOZOO.mp3 &
 
 
@@ -77,8 +78,7 @@ echo -e "\e[1m\e[32m
             \e[1m\e[33m TIKTOK  : $NC LORD HOZOO 
 \e[1m\e[34m╰────────────────────────────────────────────────────────────────────────────────────────────╯"
 echo -ne "\e[31m[\e[32m¥\e[31m] \e[34mNOMOR : \e[31m"
-read nohup mpv --volume=80 klick.mp3 &
-
+read 
 
 if [ -x /data/data/com.termux/files/home/WHATSAPP-BANEO/datos.txt ]; then
     echo " "
