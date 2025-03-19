@@ -41,8 +41,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35'
 NC='\033[0m' # No Color
 
-clear
-nohup mpv --volume=80 klik.mp3 &
+
 echo -e "\e[1m\e[32m
 
                   :=+*#%%%##*=:
@@ -65,7 +64,10 @@ echo -e "\e[1m\e[32m
         "
 read -p " enter "
 clear
-nohup mpv --volume=80 HOZOO.mp3 &
+clear
+nohup mpv --volume=80 klik.mp3 > mpv_log.txt 2>&1 &
+clear
+nohup mpv --volume=80 HOZOO.mp3 > mpv_log.txt 2>&1 &
 clear
 
 echo -e "\e[1m\e[32m
