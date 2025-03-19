@@ -41,7 +41,10 @@ PURPLE='\033[0;35'
 NC='\033[0m' # No Color
 
 clear
-mpv --volume=80 HOZOO.mp3
+
+nohup mpv --volume=80 HOZOO.mp3 &
+
+
 echo -e "\e[1m\e[32m
 
                   :=+*#%%%##*=:
@@ -74,7 +77,8 @@ echo -e "\e[1m\e[32m
             \e[1m\e[33m TIKTOK  : $NC LORD HOZOO 
 \e[1m\e[34m╰────────────────────────────────────────────────────────────────────────────────────────────╯"
 echo -ne "\e[31m[\e[32m¥\e[31m] \e[34mNOMOR : \e[31m"
-read a
+read nohup mpv --volume=80 klick.mp3 &
+
 
 if [ -x /data/data/com.termux/files/home/WHATSAPP-BANEO/datos.txt ]; then
     echo " "
@@ -90,11 +94,11 @@ echo -e "\e[36mSPAM TELAH MASUK SIR          "
 while true
 do
     sleep 5
-    echo -e "\e[32m\e[31m[\e[32m¥\e[31m] \e[32mSPAM TELAH MASUK SIR \e[31m+62$a"
+    echo -e "\e[32m\e[31m[\e[32m¥\e[31m] \e[32mSPAM TELAH MASUK SIR \e[31m$a"
     php bot.php
     echo -e "\e[36mTIKTOK : LORDHOZOO          "
     sleep 5
-    echo -e "\e[32m\e[31m[\e[32m€\e[31m] \e[32mSPAM TELAH  MASUK SIR \e[31m+62$a"
+    echo -e "\e[32m\e[31m[\e[32m€\e[31m] \e[32mSPAM TELAH  MASUK SIR \e[31m$a"
     php bot.php
     echo -e "\e[36mSPAM TELAH MASUK SIR          "
 done
