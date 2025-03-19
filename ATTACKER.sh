@@ -42,9 +42,10 @@ NC='\033[0m' # No Color
 
 clear
 nohup mpv --volume=80 klick.mp3 &
+sleep 0.25
 clear
 nohup mpv --volume=80 HOZOO.mp3 &
-
+clear
 
 echo -e "\e[1m\e[32m
 
