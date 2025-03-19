@@ -1,3 +1,4 @@
+clear
 pkg install mpv -y
 clear
 e="echo -e "
@@ -41,7 +42,7 @@ PURPLE='\033[0;35'
 NC='\033[0m' # No Color
 
 clear
-nohup mpv --volume=80 klick.mp3 &
+nohup mpv --volume=80 klik.mp3 &
 sleep 0.25
 clear
 nohup mpv --volume=80 HOZOO.mp3 &
